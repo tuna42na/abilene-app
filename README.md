@@ -1,6 +1,11 @@
+# The Bus To Abilene
 
+### ToDo and MVP
 
-# TheBusToAbilene
+- [ ] Rank Choice Voting
+- [ ] Socket connection for chat
+  - [ ] Optional chat balancing and prompting
+- [ ] Event planning that will update with twillio
 
 This project was generated using [Nx](https://nx.dev).
 
@@ -78,8 +83,6 @@ Run `nx graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
-
-
 
 ## ☁ Nx Cloud
 
