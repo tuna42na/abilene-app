@@ -280,6 +280,22 @@
             "configurations": {},
             "parallelism": true
           },
+          "web-build": {
+            "executor": "@nx/vite:build",
+            "options": {
+              "outputPath": "dist/apps/abilene-mobile/web"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "web-serve": {
+            "executor": "@nx/vite:dev-server",
+            "options": {
+              "buildTarget": "abilene-mobile:web-build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
           "test": {
             "executor": "@nx/jest:jest",
             "outputs": [

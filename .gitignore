@@ -117,8 +117,7 @@ firebase-config.json
 
 .watchman-cookie*
 
-# The environment files
-mobile_env.tar.gz
+# The environment filesz
 **/._*
 
 ## Encryption key files

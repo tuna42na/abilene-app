@@ -1,5 +1,5 @@
 {
-  "8039889306584259020apps/abilene-mobile/vite.config.ts": {
+  "14092780310089815096apps/abilene-mobile/vite.config.ts": {
     "targets": {
       "build": {
         "command": "vite build",

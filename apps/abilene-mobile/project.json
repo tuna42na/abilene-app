@@ -75,6 +75,18 @@
         "lintFilePatterns": ["apps/abilene-mobile/**/*.{ts,tsx,js,jsx}"]
       }
     },
+    "web-build": {
+      "executor": "@nx/vite:build",
+      "options": {
+        "outputPath": "dist/apps/abilene-mobile/web"
+      }
+    },
+    "web-serve": {
+      "executor": "@nx/vite:dev-server",
+      "options": {
+        "buildTarget": "abilene-mobile:web-build"
+      }
+    },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["coverage/apps/abilene-mobile"],

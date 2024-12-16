@@ -5,7 +5,8 @@
   "scripts": {
     "start": "nx run abilene-mobile:start",
     "pod-install": "$(cd apps/abilene-mobile/ios && pod install)",
-    "symlink": "nx run abilene-mobile:ensure-symlink"
+    "symlink": "nx run abilene-mobile:ensure-symlink",
+    "web-serve": "nx run abilene-mobile:web-serve"
   },
   "private": true,
   "dependencies": {
