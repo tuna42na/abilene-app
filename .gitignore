@@ -127,4 +127,4 @@ apps/*/.cxx/
 .metro-health-check*
 
 # NX
-.nx/cache
+.nx

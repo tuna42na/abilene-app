@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx run abilene-mobile:start",
+    "ios": "nx run abilene-mobile:run-ios",
     "pod-install": "$(cd apps/abilene-mobile/ios && pod install)",
     "symlink": "nx run abilene-mobile:ensure-symlink",
     "web-serve": "nx run abilene-mobile:web-serve"
